@@ -1,0 +1,7 @@
+mode,run,before_mbps,during_mbps,recovery_s,fail_start_s,fail_end_s
+static,1,9.44,3.84,0.8,7.0,17.0
+dynamic,1,9.41,3.8,0.4,7.0,17.0
+static,2,6.07,3.59,0.9,7.0,17.0
+dynamic,2,7.83,3.24,0.8,7.0,17.2
+static,3,9.45,3.39,0.5,7.0,17.0
+dynamic,3,5.38,3.49,1.0,7.0,17.0

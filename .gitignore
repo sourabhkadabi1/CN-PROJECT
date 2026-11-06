@@ -1,0 +1,49 @@
+```gitignore
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+.venv-ryu/
+venv-ryu/
+sdn-env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE settings
+.vscode/
+.idea/
+
+# Temporary files
+*.save
+*.tmp
+*.bak
+
+# Generated backup data
+backup/*
+!backup/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# Test and cache files
+.coverage
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Generated experiment results
+# Keep CSV and graph results in Git for project evaluation.
+# experiments/results/
+```
